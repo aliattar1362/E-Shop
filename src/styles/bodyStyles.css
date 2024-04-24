@@ -1,0 +1,177 @@
+.h1-font {
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 64px;
+  color: #222;
+  /* animation */
+  overflow: hidden;
+  /* Hide overflow to create typing effect */
+  border-right: 2px solid #000;
+  /* Create a cursor effect */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+  animation: typing 2s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 30%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #000;
+  }
+}
+
+.h2-font {
+  display: block;
+  margin: 0;
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 54px;
+  color: #222;
+}
+.h4-font {
+  font-size: 20px;
+  font-weight: bold;
+  color: inherit;
+}
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: inherit;
+  margin: 15px 0 10px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* Home Page */
+#hero {
+  background: url(../../public/img/hero.webp) right center no-repeat;
+  height: 75vh;
+  background-size: 40%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* animation */
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#hero .h4-font {
+  padding-bottom: 15px;
+}
+
+#hero .h1-font {
+  color: #2ecc71;
+}
+
+#hero button {
+  color: #34495e;
+  padding: 14px 80px;
+  background-color: #f4d03f;
+  text-shadow: 0 1px 5px #333;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#hero button:hover {
+  box-shadow: 10px 10px 20px 0px rgba(150, 28, 28, 0.5);
+}
+
+/* Newsletter */
+#newsLetter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #041e42;
+  padding: 20px 30px;
+  margin-top: 100px;
+}
+
+#newsLetter .h4-font {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+#newsLetter p {
+  color: #818ea0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#newsLetter p span {
+  color: #f4d03f;
+}
+
+#newsLetter input {
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsLetter button {
+  background-color: #088178;
+  height: 3.125rem;
+  padding: 1em 1.25em;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  font-weight: 800;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  cursor: pointer;
+  text-shadow: 0 1px 5px #333;
+}
+
+#newsLetter button:hover {
+  box-shadow: 10px 10px 20px 0px green;
+}
+
+#newsLetter .form {
+  display: flex;
+  width: 35%;
+}

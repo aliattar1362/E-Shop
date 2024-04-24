@@ -1,0 +1,47 @@
+div.carousel {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  /* border: solid 3px green; */
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position-x: 550px;
+}
+
+div.container {
+  /* border: solid 1px red; */
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+div.centeredContainer {
+  position: relative;
+  /* border: solid 1px blue; */
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  max-width: 1200px;
+  top: 100px;
+}
+
+#view {
+  margin: 0 auto;
+}
+
+#favorite {
+  color: aqua;
+}
+
+#favorite:hover {
+  background-color: #f44336; /* Red color on hover */
+  color: white;
+}

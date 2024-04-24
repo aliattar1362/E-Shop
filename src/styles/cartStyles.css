@@ -1,0 +1,19 @@
+div .cartTitle {
+  margin-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f21137;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 5px dashed orange;
+  padding-bottom: 10px;
+}
+
+div#cartEmpty {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  color: #f21137;
+  margin: 20px 0;
+}

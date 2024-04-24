@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lobster&display=swap");
+
+.admin h3 {
+  font-family: Lobster, Arial, sans-serif;
+  color: brown;
+}
+
+.admin-button {
+  color: black;
+  background-color: greenyellow;
+  margin: 0 10px;
+}
+
+.admin-button:hover {
+  background-color: darkgreen;
+}

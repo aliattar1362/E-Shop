@@ -1,0 +1,15 @@
+div .img {
+  position: relative;
+  background-image: url("../../public/img/hero.webp");
+  background-size: 75%;
+  border: solid 1px red;
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 10px 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-position-x: 500px;
+  background-repeat: no-repeat;
+}
